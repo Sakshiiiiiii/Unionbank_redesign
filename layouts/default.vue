@@ -10,12 +10,12 @@
     </v-app-bar>
 
     <!-- Body -->
-    <v-content light>
+    <v-content light> <tab/>
       <nuxt /> 
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="indigo" app>
+    <v-footer color="pink" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
@@ -33,5 +33,6 @@ export default {}
 
    #inspire {
     background-color: white;
-  }
+    color: black;
+}
 </style>
