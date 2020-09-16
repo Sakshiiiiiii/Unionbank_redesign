@@ -4,13 +4,13 @@
     
     <!--Header -->
     <v-app-bar color="#E22026" dark fixed app>
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title><UBIIIIIIIII/></v-toolbar-title> 
        <!-- Component Example -->
-      <VuetifyLogo/>
+       <tab/>
     </v-app-bar>
 
     <!-- Body -->
-    <v-content light> <tab/>
+    <v-content light> 
       <nuxt /> 
     </v-content>
     

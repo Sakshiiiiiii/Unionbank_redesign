@@ -1,20 +1,19 @@
 <template>
-  <v-sheet elevation="6">
+  <v-card>
     <v-tabs
-      background-color="white"
-      dark
-      next-icon="mdi-arrow-right-bold-box-outline"
-      prev-icon="mdi-arrow-left-bold-box-outline"
-      show-arrows
+      light
+      background-color="#E22026"
+      
     >
-      <v-tabs-slider color="yellow"></v-tabs-slider>
+      <v-tabs-slider color="white"></v-tabs-slider>
+
       <v-tab
-        v-for="i in 30"
+        v-for="i in 6"
         :key="i"
         :href="'#tab-' + i"
       >
         Item {{ i }}
       </v-tab>
     </v-tabs>
-  </v-sheet>
+  </v-card>
 </template>
