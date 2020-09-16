@@ -3,7 +3,7 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="red" dark fixed app>
+    <v-app-bar color="#E22026" dark fixed app>
       <v-toolbar-title>Application</v-toolbar-title>
        <!-- Component Example -->
       <VuetifyLogo/>
@@ -15,7 +15,7 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="pink" app>
+    <v-footer color="#E22026" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
