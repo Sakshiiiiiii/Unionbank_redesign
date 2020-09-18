@@ -1,13 +1,20 @@
 <template>
   <div>
     <v-content>
-      It Worked! Yes It did Great
-      <v-container>
-        <v-row justify="center">
-          <h1>How to stir fry chicken</h1>
-        </v-row>
-        <loadingcard/>
-      </v-container>
+    <v-container>
+<v-row>
+   Heading
+</v-row>
+<v-row>
+<v-col md="3">
+<Accordian/>
+</v-col>
+<v-col md="9">
+<button/>
+</v-col>
+</v-row>
+</v-container>
+
     </v-content>
   </div>
 </template>

@@ -1,4 +1,5 @@
 <template>
+background-color="#E22026"
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
