@@ -1,6 +1,9 @@
 <template>
   <v-row justify="center">
     <v-dialog v-model="dialog" persistent max-width="500">
+    <!-- the persistent navigation makes the user select the option specified in the form -->
+      <!-- the card wont dissapear till any of the options are being selecting -->
+  
       <template v-slot:activator="{ on, attrs }">
         <v-btn
           color="primary"

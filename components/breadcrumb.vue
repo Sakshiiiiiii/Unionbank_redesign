@@ -1,14 +1,31 @@
 <template>
-  <img
-    class="VuetifyLogo"
-    alt="Vuetify Logo"
-    src="vuetify-logo.svg"
-  >
+  <div>
+    <v-breadcrumbs :items="items"></v-breadcrumbs>
+
+   
+  </div>
 </template>
 
-<style>
-.VuetifyLogo {
-  height: 50px;
-  width: 50px;
-}
-</style>
+<script>
+  export default {
+    data: () => ({
+      items: [
+        {
+          text: 'Home',
+          disabled: true,
+          href: 'breadcrumbs_dashboard',
+        },
+        {
+          text: 'Products',
+          disabled: true,
+          href: 'breadcrumbs_link_1',
+        },
+        {
+          text: 'Loan',
+          disabled: true,
+          href: 'breadcrumbs_link_2',
+        },
+      ],
+    }),
+  }
+</script>

@@ -4,15 +4,16 @@
     
     <!--Header -->
     <v-app-bar color="#E22026" dark fixed app>
-      <v-toolbar-title><UBIIIIIIIII/></v-toolbar-title> 
+      <!-- <v-toolbar-title>Application</v-toolbar-title> -->
        <!-- Component Example -->
-       <tab/>
-    </v-app-bar>
+      <Ubilogo/> <tab/>
+    </v-app-bar> 
 
     <!-- Body -->
-    <v-content light> 
+    <v-content light>
       <nuxt /> 
-    </v-content>
+    </v-content> 
+    <breadcrumb/>
     
     <!-- Footer -->
     <v-footer color="#E22026" app>
@@ -33,6 +34,6 @@ export default {}
 
    #inspire {
     background-color: white;
-    color: black;
-}
+    color: rgb(255, 255, 255);
+  }
 </style>
