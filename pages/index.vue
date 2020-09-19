@@ -3,15 +3,10 @@
     <v-content>
     <v-container>
 <v-row>
-   Heading
+   <Accordian/>
 </v-row>
 <v-row>
-<v-col md="3">
-<Accordian/>
-</v-col>
-<v-col md="9">
 <button/>
-</v-col>
 </v-row>
 </v-container>
 

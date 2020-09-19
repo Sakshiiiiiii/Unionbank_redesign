@@ -1,50 +1,41 @@
 <template>
-  <div class="text-center">
-    <v-dialog
-      v-model="dialog"
-      width="500"
-    >
+  <v-row justify="center">
+    <v-dialog v-model="dialog" scrollable max-width="300px">
       <template v-slot:activator="{ on, attrs }">
         <v-btn
-          color="red lighten-2"
+          color="primary"
           dark
           v-bind="attrs"
           v-on="on"
         >
-          hello
+          Open Dialog
         </v-btn>
       </template>
-
       <v-card>
-        <v-card-title class="headline grey lighten-2">
-          Privacy Policy
-        </v-card-title>
-
-        <v-card-text>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </v-card-text>
-
+        <v-card-title>Select</v-card-title>
         <v-divider></v-divider>
-
+        <v-card-text style="height: 300px;">
+          <v-radio-group v-model="dialogm1" column>
+            <v-radio label="New User, The" value="New User"></v-radio>
+            <v-radio label="Existing User" value="Existing User"></v-radio>
+            
+          </v-radio-group>
+        </v-card-text>
+        <v-divider></v-divider>
         <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn
-            color="primary"
-            text
-            @click="dialog = false"
-          >
-            I accept
-          </v-btn>
+          <v-btn color="blue darken-1" text @click="dialog = false">Close</v-btn>
+          <v-btn color="blue darken-1" text @click="dialog = false">Save</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
-  </div>
+  </v-row>
 </template>
 
 <script>
   export default {
     data () {
       return {
+        dialogm1: '',
         dialog: false,
       }
     },
