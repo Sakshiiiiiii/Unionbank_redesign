@@ -1,12 +1,12 @@
 <template>
   <div>
     <v-content>
-      It Worked! Yes It did Great
+        <breadcrumb/>
       <v-container>
         <v-row justify="center">
         
         </v-row>
-        <card/>
+        
       </v-container>
     </v-content>
   </div>

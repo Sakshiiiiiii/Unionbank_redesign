@@ -1,45 +1,54 @@
 <template>
+<v-row>
+<v-col md="11">
   <form>
-    <v-text-field
-      v-model="name"
-      :error-messages="nameErrors"
-      :counter="10"
-      label="Name"
-      required
-      @input="$v.name.$touch()"
-      @blur="$v.name.$touch()"
-    ></v-text-field>
-    <v-text-field
-      v-model="email"
-      :error-messages="emailErrors"
-      label="E-mail"
-      required
-      @input="$v.email.$touch()"
-      @blur="$v.email.$touch()"
-    ></v-text-field>
+    
+   
+    
     <v-select
       v-model="select"
-      :items="items"
+      :items="a"
       :error-messages="selectErrors"
-      label="Item"
+      label="Loan Amount (Rs.)"
       required
       @change="$v.select.$touch()"
       @blur="$v.select.$touch()"
     ></v-select>
-    <v-checkbox
-      v-model="checkbox"
-      :error-messages="checkboxErrors"
-      label="Do you agree?"
+    <!--item can be any thing and it can be given a varible if there are more then one element-->
+    
+     <v-select
+      v-model="select"
+      :items="b"
+      :error-messages="selectErrors"
+      label="Interest rate (%)"
       required
-      @change="$v.checkbox.$touch()"
-      @blur="$v.checkbox.$touch()"
-    ></v-checkbox>
-
-    <v-btn class="mr-4" @click="submit">submit</v-btn>
-    <v-btn @click="clear">clear</v-btn>
+      @change="$v.select.$touch()"
+      @blur="$v.select.$touch()"
+    ></v-select>
+     <v-select
+      v-model="isFormValid"
+      :items="c"
+      :error-messages="selectErrors"
+      label="Tenure (Years)"
+      required
+      @change="$v.select.$touch()"
+      @blur="$v.select.$touch()"
+    ></v-select>
+    <radio/> <br>
+    
+    
+    
+    <v-btn href="userform"
+    
+     class="mr-4" @click="submit">Ok</v-btn>
+    
+    <v-btn href="accordian"
+    @click="clear">Back</v-btn>
   </form>
+  </v-col>
+  </v-row>
 </template>
-
+<!--href accordian is to link home page button to accordian-->
 <script>
   import { validationMixin } from 'vuelidate'
   import { required, maxLength, email } from 'vuelidate/lib/validators'
@@ -62,15 +71,31 @@
       name: '',
       email: '',
       select: null,
-      items: [
-        'Item 1',
-        'Item 2',
-        'Item 3',
-        'Item 4',
+      a: [
+        '5,00,000/-',
+        '10,00,000/-',
+        '50,00,000/-',
+        '1,00,00,000/-',
+          
+      ],
+
+      b: [
+        '8%',
+        '10%',
+        '12%',
+        '15%',
+      ],
+      c: [
+        '5',
+        '10',
+        '15',
+        '20',
       ],
       checkbox: false,
     }),
-
+    
+    
+    
     computed: {
       checkboxErrors () {
         const errors = []
@@ -78,6 +103,7 @@
         !this.$v.checkbox.checked && errors.push('You must agree to continue!')
         return errors
       },
+      
       selectErrors () {
         const errors = []
         if (!this.$v.select.$dirty) return errors
@@ -98,13 +124,14 @@
         !this.$v.email.required && errors.push('E-mail is required')
         return errors
       },
+  // The above text in orange appears when the user fails to fill the text field 
     },
 
     methods: {
-      submit () {
+      Ok () {
         this.$v.$touch()
       },
-      clear () {
+      Back () {
         this.$v.$reset()
         this.name = ''
         this.email = ''
