@@ -44,6 +44,7 @@
      <checkbox/>
     </v-expansion-panel-content>
   </v-expansion-panel> <br>
+  <!--In this checkbox box code is after the first accordian code to show it as a part of he accordian -->
   
   <v-expansion-panel
     v-for="(forms,c) in 1"

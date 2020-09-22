@@ -1,10 +1,10 @@
 <template>
   <div>
     <v-content>
-        <breadcrumb/>
+        
       <v-container>
         <v-row justify="center">
-        
+        <textbox/>
         </v-row>
         
       </v-container>

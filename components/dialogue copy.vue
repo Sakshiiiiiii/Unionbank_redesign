@@ -9,7 +9,12 @@
           v-on="on"
         >
           Open Dialog
-        </v-bt\"height: 300px;">
+        </v-btn>
+      </template>
+      <v-card>
+        <v-card-title>Select</v-card-title>
+        <v-divider></v-divider>
+        <v-card-text style="height: 300px;">
           <v-radio-group v-model="dialogm1" column>
             <v-radio label="New User, The" value="New User"></v-radio>
             <v-radio label="Existing User" value="Existing User"></v-radio>
