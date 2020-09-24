@@ -39,6 +39,7 @@
     
     
     <v-btn href="userform"
+    :disabled="!isFormValid"
     
      class="mr-4" @click="submit">Ok</v-btn>
     
@@ -68,6 +69,7 @@
     },
 
     data: () => ({
+      isFormValid:false,
       name: '',
       email: '',
       select: null,

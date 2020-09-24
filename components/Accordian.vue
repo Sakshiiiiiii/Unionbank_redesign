@@ -1,12 +1,13 @@
-{    <template>
-  <v-expansion-panels>
-  <v-expansion-panel
-    v-for="(featurs,a) in 1"
+<template>
+  <v-expansion-panels class="features">
+  <v-expansion-panel class="#096EB7"
+   v-for="(featurs,a) in 1"
     :key="i"
   >
+  <!--Accordian-->
   <!--feature,a is like giving a variable for more then one element-->
   <!--v-for allows to write in loop-->
-    <v-expansion-panel-header>Features</v-expansion-panel-header>
+    <v-expansion-panel-header> Features</v-expansion-panel-header>
     <v-expansion-panel-content>
     <!--expansion panel helps in expanding a tab to an accordian-->
       <h4> PURPOSE</h4> <br> 1. Purchase of new/old residential unit (house/ flat/villa/apartment etc.)<br> 2. Construction of residential unit on exiting non agriculture plot.<br> 3. Purchase of non-agricultural plot and construction of residential unit (composite project) thereon**<br> 4. Repairs/ improvements/ extension of the existing residential property.<br> 4. Take-over of housing loan availed from another bank / FI <br> 5. Completion of under construction residential unit.<br> 6. Purchase of solar power panel along with purchase / construction of house.<br><br>
@@ -20,12 +21,13 @@
     <checkboxfeatures/>
     </v-expansion-panel-content>
   </v-expansion-panel> 
-  <v-expansion-panel
+  <v-expansion-panel class="features" 
     v-for="(forms,b) in 1"
     :key="i"
   >
     <v-expansion-panel-header>Forms and Documents</v-expansion-panel-header>
     <v-expansion-panel-content>
+      <!--Cnten features-->
       <h4> LIST OF DOCUMENTS</h4> <br> <h5>1. Proof of identity (any of the following)</h5> <br>a. Passport<br>
       b. PAN Card<br>
       c. Employee identity card<br>
@@ -71,11 +73,19 @@ Unmarried-daughter<br>
   </v-expansion-panel>
   <!--br is used to break sentences in the content-->
 
-    
+  <!--button-->  
   <br><div class="text-center">
   <v-btn href="homeloan"
+  :disabled="!isFormValid"
   rounded color="primary" dark>Ok</v-btn>
     </div>
   <!--href is used to specify URL of the page-->
   </v-expansion-panels>
   </template>}
+  <style>
+  .features{
+    color:#096EB7 !important; 
+    
+  }
+  </style>
+  

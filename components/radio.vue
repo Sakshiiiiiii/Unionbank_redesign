@@ -1,7 +1,7 @@
 <template>
-  <v-card id="create">
+  <v-card color= "#9E9E9E" id="create" flat>
     <v-container fluid>
-      <v-row justify="center">
+      <v-row justify="left">
        
         <!-- <v-col cols="3" sm="6" md="3"> -->
           <!-- <v-subheader >Select the Sum Insured</v-subheader> -->

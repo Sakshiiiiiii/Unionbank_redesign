@@ -46,7 +46,7 @@ export default {}
   }
 
    #inspire {
-    background-color: grey;
+    background-color: #9E9E9E;
     color: rgb(255, 255, 255);
   }
 </style>

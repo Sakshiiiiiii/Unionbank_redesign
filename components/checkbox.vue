@@ -1,14 +1,17 @@
 <template>
+<v-form v-model="isFormValid" >
   <v-treeview
     selectable
     selected-color="blue"
     :items="items"
   ></v-treeview>
+  </v-form>
 </template>
 
 <script>
   export default {
     data: () => ({
+      isFormValid: false,
       items: [
         {
           id: 1,
