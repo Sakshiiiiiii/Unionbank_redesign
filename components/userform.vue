@@ -1,7 +1,7 @@
 <template>
 
 <v-container>
- <h4 class="hey">  Please Fill Your Details </h4> 
+ <h4 class="hey"> Please Fill Your Details </h4> 
 <v-row>
  
  
@@ -568,7 +568,7 @@
   }
 </script>
 <style>
-.hey {color: #0e387c);
+.hey {color:rgb(47, 64, 143) ;
 font-family: Arial;
 
 }

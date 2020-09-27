@@ -1,6 +1,6 @@
 <template>
   <v-tabs
-    
+  
     background-color="#E22026"
     <v-tabs color="white"
   background-color="#E22026"

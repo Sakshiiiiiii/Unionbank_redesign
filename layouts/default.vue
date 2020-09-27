@@ -6,11 +6,17 @@
     <v-app-bar color="#E22026" dark fixed app>
       <!-- <v-toolbar-title>Application</v-toolbar-title> -->
        <!-- Component Example -->
-      <Ubilogo/> <tab/> 
+      <Ubilogo/> 
+       <v-row class="hidden-sm-and-down">
+
+      <tab/> 
+      </v-row>
+      <v-row class="hidden-sm-and-down">
       <v-img
       class="mx-auto"
       src= "textbox.jpg">
       </v-img>
+      </v-row>
       <v-btn icon>
           <v-icon>mdi-magnify</v-icon>
        </v-btn>

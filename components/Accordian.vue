@@ -32,8 +32,8 @@
     </v-expansion-panel-content>
     
   </v-expansion-panel> 
-  <v-row>
-  </v-row>  
+  <v-row class="mt-md-4">
+    
   <v-expansion-panel class="blue darken-4" 
     v-for="(forms,b) in 1"
     :key="i"
@@ -58,12 +58,15 @@
       <v-row>c. Last 6 months salary slip</v-row>
      <v-row>
   
-<col cols="10" md="10" lg="10">
+<v-col cols="10" md="10" lg="10">
      <checkbox/>
-     </col>
+     </v-col>
      </v-row>
     </v-expansion-panel-content>
-  </v-expansion-panel> <br>
+  </v-expansion-panel> 
+  </v-row>
+
+
   <!--In this checkbox box code is after the first accordian code to show it as a part of he accordian -->
   
   <v-expansion-panel class="blue darken-4" 
@@ -90,14 +93,12 @@ The maximum amount of loan sanctioned would be minimum of A or B<br>
     </v-expansion-panel-content>
   </v-expansion-panel>
   </v-expansion-panels>
-  </v-row>
-  <v-row>
-  </v-row>
-  <v-row justify="center">
+ 
+  <v-row justify="center" class="mt-md-4 mt-sm-4">
   <!--br is used to break sentences in the content-->
 
   <!--button-->  
-  <br><div class="text-center">
+  <div class="text-center">
   <v-btn href="homeloan"
   
    color="primary" dark>Ok</v-btn>
