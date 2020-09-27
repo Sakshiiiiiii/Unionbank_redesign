@@ -2,8 +2,8 @@
   <div>
     <v-breadcrumbs :items="items">
       <template v-slot:divider>
-        <v-icon color="grey">mdi-chevron-right</v-icon>
-        <!--For changing code-->
+        <!-- Added color=black to make the icon black as the background is light -->
+        <v-icon color="black">mdi-chevron-right</v-icon>
       </template>
     </v-breadcrumbs>
   </div>
@@ -15,26 +15,29 @@
       items: [
         {
           text: 'Home',
+          // This function helps to show on which page we are not there, when its false the colur of text is blue
           disabled: false,
-          href: 'breadcrumbs_dashboard',
+          // href: 'breadcrumbs_dashboard',
         },
-        //false stands for directing 'home' to previous link
         {
-          text: 'Products',
+          text: 'Product',
           disabled: false,
-          href: 'breadcrumbs_link_1',
+          // the href is commented out as my flow is on one page  and there are no pages to add to href
+          // href: 'breadcrumbs_link_1',
         },
         {
           text: 'Loans',
           disabled: false,
-          href: 'breadcrumbs_link_2',
+          // href: 'breadcrumbs_link_2',
         },
         {
-          text: 'Homeloan',
+          text: 'HomeLoan',
           disabled: true,
-          href: 'breadcrumbs_link_3',
+          // href: 'breadcrumbs_link_3',
         },
       ],
     }),
   }
 </script>
+
+

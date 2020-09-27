@@ -1,6 +1,7 @@
 <template>
+<v-container>
 <v-row>
-<v-col md="11">
+<v-col>
   <form>
     
    
@@ -13,9 +14,9 @@
       required
       @change="$v.select.$touch()"
       @blur="$v.select.$touch()"
+      
     ></v-select>
     <!--item can be any thing and it can be given a varible if there are more then one element-->
-    
      <v-select
       v-model="select"
       :items="b"
@@ -48,6 +49,7 @@
   </form>
   </v-col>
   </v-row>
+  </v-container>
 </template>
 <!--href accordian is to link home page button to accordian-->
 <script>

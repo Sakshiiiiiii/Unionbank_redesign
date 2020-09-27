@@ -2,7 +2,7 @@
 <v-form v-model="isFormValid" >
   <v-treeview
     selectable
-    selected-color="blue"
+    selected-color="red"
     :items="items"
   ></v-treeview>
   </v-form>
