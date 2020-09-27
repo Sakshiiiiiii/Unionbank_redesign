@@ -529,6 +529,7 @@
         const errors = []
         if (!this.$v.checkbox.$dirty) return errors
         !this.$v.checkbox.checked && errors.push('You must agree to continue!')
+        // The above text in orange is a sort of alert which users get when they fail to fill a particular section in a form 
         return errors
       },
       selectErrors () {
@@ -570,6 +571,6 @@
 <style>
 .hey {color:rgb(47, 64, 143) ;
 font-family: Arial;
-
+/* this can hange the color and font of text */
 }
 </style>

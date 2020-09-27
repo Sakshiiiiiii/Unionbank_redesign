@@ -13,4 +13,10 @@
 </template>
 
 <script>
+<style>
+.ubilogo {
+  height:10px;
+  width: 90px;
+}
+</style>
 
