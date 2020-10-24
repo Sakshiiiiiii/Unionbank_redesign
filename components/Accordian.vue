@@ -10,7 +10,7 @@
     <v-expansion-panel class="blue darken-4"
     
     v-for="(forms,a) in 1"
-      :key="i"
+      :key="a"
     >
     <!--Accordian-->
     <!--feature,a is like giving a variable for more then one element-->
