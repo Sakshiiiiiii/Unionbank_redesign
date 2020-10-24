@@ -1,4 +1,4 @@
-  <template>
+   <template>
   <v-container>
 
     
@@ -41,7 +41,7 @@
     
     <v-expansion-panel class="blue darken-4" 
       v-for="(forms,b) in 1"
-      :key="i"
+      :key="b"
     >
       <v-expansion-panel-header>Forms and Documents</v-expansion-panel-header>
       <v-expansion-panel-content>
@@ -78,7 +78,7 @@
     
     <v-expansion-panel class="blue darken-4" 
       v-for="(forms,c) in 1"
-      :key="i"
+      :key="c"
     >
       <v-expansion-panel-header>FAQs</v-expansion-panel-header>
       <v-expansion-panel-content>
@@ -113,7 +113,6 @@
     color="primary" dark>Ok</v-btn>
       </div>
     <!--href is used to specify URL of the page-->
-    </v-col>
     </v-row>
     </v-container>
     </template>}

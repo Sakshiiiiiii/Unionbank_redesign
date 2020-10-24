@@ -3,7 +3,7 @@
     <v-content>
     <v-container>
 <v-row>
-   <accordian/>
+   <Accordian1/>
 </v-row>
 <v-row>
 <button/>

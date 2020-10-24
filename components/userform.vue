@@ -116,7 +116,7 @@
       </template>
       <v-card>
         <v-card-title class="headline">Task Successful!</v-card-title>
-        <v-card-text>Your loan application is succefully done.<br> Thank you for banking with us.</v-card-text>
+        <v-card-text>Your loan application is successfully done.<br> Thank you for banking with us.</v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
           

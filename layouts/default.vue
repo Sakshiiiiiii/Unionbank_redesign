@@ -23,15 +23,23 @@
           </v-row>
         <v-col class="hidden-sm-and-down">
           </v-col>
-        <v-row class="hidden-sm-and-down">
-        <v-img
-        class="mx-auto"
-        src= "textbox.jpg">
-        </v-img>
-        </v-row>
-        <v-btn icon>
+          <v-btn icon>
             <v-icon>mdi-magnify</v-icon>
         </v-btn>
+      <v-row  justify="end" class="  col-md-2 col-xs-1 col-sm-2">
+       <v-text-field
+            v-model="search"
+            clearable
+            flat
+            solo-inverted
+            hide-details
+            class="hidden-xs-only"
+            label="Search"
+           
+          ></v-text-field>
+          </v-row>
+
+        
         
       </v-app-bar> 
 
@@ -64,7 +72,7 @@
     }
 
     #inspire {
-      background-color: #9E9E9E;
+      background-color: #C4C4C4;
       color: rgb(255, 255, 255);
     }
   </style>

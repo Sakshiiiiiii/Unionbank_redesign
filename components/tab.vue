@@ -1,11 +1,11 @@
 <template>
   <v-tabs
   
+    
+    v-tabs color="white"
     background-color="#E22026"
-    <v-tabs color="white"
-  background-color="#E22026"
-    dark
-  >
+    dark>
+  
     <v-tab>
       PRODUCTS
     </v-tab>
