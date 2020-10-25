@@ -1,7 +1,12 @@
 <template>
-
+<div>
+    <v-alert
+      outlined
+      color="#34618E"
+     >
 <v-container>
  <h4 class="hey"> Please Fill Your Details </h4> 
+ <v-divider></v-divider>
 <v-row>
  
  
@@ -104,7 +109,9 @@
   <v-row justify="center">
     <v-dialog v-model="dialog" persistent max-width="290">
       <template v-slot:activator="{ on, attrs }">
+        <div class="text-center"> 
         <v-btn
+        rounded
         :disabled="!isFormValid"
     
           color="primary"
@@ -114,8 +121,9 @@
         >
           Apply Loan
         </v-btn>
+        </div>
       </template>
-      <v-card>
+      <v-card class="#c4c4c4">
         <v-card-title class="headline">Task Successful!</v-card-title>
         <v-card-text>Your loan application is successfully done.<br> Thank you for banking with us.</v-card-text>
         <v-card-actions>
@@ -130,7 +138,10 @@
     
   </form>
   </v-row>
+ 
   </v-container>
+   </v-alert>
+</div>
 </template>
 
 <script>

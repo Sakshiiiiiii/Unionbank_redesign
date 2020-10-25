@@ -27,6 +27,7 @@
         <v-row><h5> PURPOSE</h5></v-row>
         <v-divider></v-divider><br>
         <v-row>
+        <v-col md="8" sm="8" cols="8">  
         <ol>
          <!-- ol is used to put the text in the pointerr form -->
          <!-- li stands for list. It helps in forming a list  -->
@@ -39,6 +40,8 @@
         
         
         </ol>  
+        </v-col>
+
         </v-row>
         <br>
         <v-row><h5> ELIGIBILITY</h5></v-row>
@@ -151,6 +154,7 @@
           
            
         </ol>  
+        
         </v-row> 
         <br>
        

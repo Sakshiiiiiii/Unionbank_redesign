@@ -28,6 +28,7 @@
         </v-btn>
       <v-row  justify="end" class="  col-md-2 col-xs-1 col-sm-2">
        <v-text-field
+        rounded
             v-model="search"
             clearable
             flat
@@ -73,6 +74,6 @@
 
     #inspire {
       background-color: #c4c4c4;
-      color: rgb(2, 87, 2158);
+      color: rgb(46, 65, 143);
     }
   </style>

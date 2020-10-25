@@ -56,10 +56,17 @@
     
   <div class="text-center"> 
     <v-btn
-    rounded href="userform"
-    :disabled="!isFormValid"
+        rounded href="userform"
+        :disabled="!isFormValid"
     
-     class="mr-4" @click="submit">Ok</v-btn>
+          color="primary"
+          dark
+          v-bind="attrs"
+          v-on="on"
+        > 
+        OK
+        </v-btn>
+
     
     <v-btn rounded href="accordian"
     @click="clear">Back</v-btn>
