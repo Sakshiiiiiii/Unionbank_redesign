@@ -4,18 +4,29 @@
 <v-col>
   <form>
     
-   
+   <!-- <v-card
+          class="pa-2"
+          outlined
+          color="#34618E"
+          
+        > -->
+    <div>
+    <v-alert
+      outlined
+      color="#34618E"
+     >
+
+      <v-select
+        v-model="select"
+        :items="a"
+        :error-messages="selectErrors"
+        label="Loan Amount (Rs.)"
+        required
+        @change="$v.select.$touch()"
+        @blur="$v.select.$touch()"
+        
+      ></v-select>
     
-    <v-select
-      v-model="select"
-      :items="a"
-      :error-messages="selectErrors"
-      label="Loan Amount (Rs.)"
-      required
-      @change="$v.select.$touch()"
-      @blur="$v.select.$touch()"
-      
-    ></v-select>
     <!--item can be any thing and it can be given a varible if there are more then one element-->
      <v-select
       v-model="select"
@@ -35,22 +46,33 @@
       @change="$v.select.$touch()"
       @blur="$v.select.$touch()"
     ></v-select>
+    <!-- </v-card>  -->
+    </v-alert>
+    </div>
+    <div class="text-left"> 
     <radio/> <br>
+    </div>
     
     
-    
-    <v-btn href="userform"
+  <div class="text-center"> 
+    <v-btn
+    rounded href="userform"
     :disabled="!isFormValid"
     
      class="mr-4" @click="submit">Ok</v-btn>
     
-    <v-btn href="accordian"
+    <v-btn rounded href="accordian"
     @click="clear">Back</v-btn>
+  </div>  
+   
   </form>
+  
   </v-col>
   </v-row>
   </v-container>
 </template>
+
+
 <!--href accordian is to link home page button to accordian-->
 <script>
   import { validationMixin } from 'vuelidate'

@@ -3,7 +3,7 @@
     <v-breadcrumbs :items="items">
       <template v-slot:divider>
         <!-- Added color=black to make the icon black as the background is light -->
-        <v-icon color="black">mdi-chevron-right</v-icon>
+        <v-icon color="red">mdi-chevron-right</v-icon>
       </template>
     </v-breadcrumbs>
   </div>

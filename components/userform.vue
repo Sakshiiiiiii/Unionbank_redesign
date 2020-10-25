@@ -5,7 +5,7 @@
 <v-row>
  
  
-<col sm="10" md="10" lg="10">
+<col sm="10" md="10" cols="10">
 
   <form>
     
@@ -13,6 +13,7 @@
       v-model="name"
       :error-messages="nameErrors"
       :counter="10"
+      color="#r02589D"
       label="Name"
       required
       @input="$v.name.$touch()"
