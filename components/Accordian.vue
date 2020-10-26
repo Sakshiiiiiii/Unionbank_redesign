@@ -2,7 +2,8 @@
   <v-container>
     <div>
       <v-alert outlined color="#34618E">
-        <col cols="10" md="10" sm="10" class="px-md-16 mx-sm-4 mx-4">
+        <v-row justify="center">
+        <v-col cols="11" md="11" sm="11" class="px-md-10 mx-sm-4 mx-4">
         <!-- cols stand for mobile phones, where 10 means 10 column width/ md- laptop/ lg- computer  -->
         <!-- this are added for making the website responsive -->
 
@@ -286,7 +287,7 @@
         <br /><br />
 
 
-        <!-- 2EXPAN -->
+        <!-- 3EXPAN -->
 
 
         <v-expansion-panels>
@@ -354,6 +355,8 @@
             <v-btn rounded href="homeloan" color="primary" dark>Ok</v-btn>
           </div>
           <!--href is used to specify URL of the page-->
+        </v-row>
+        </v-col>
         </v-row>
       </v-alert>
     </div>
