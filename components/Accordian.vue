@@ -3,7 +3,7 @@
     <div>
       <v-alert outlined color="#34618E">
         <v-row justify="center">
-        <v-col cols="11" md="11" sm="11" class="px-md-10 mx-sm-4 mx-4">
+        <v-col cols="10" md="10" sm="10" class="px-md-8 mx-sm-4 mx-4">
         <!-- cols stand for mobile phones, where 10 means 10 column width/ md- laptop/ lg- computer  -->
         <!-- this are added for making the website responsive -->
 
@@ -235,11 +235,10 @@
             v-for="(forms, b) in 1"
             :key="b"
           >
-            <v-expansion-panel-header
-              >Forms and Documents</v-expansion-panel-header
+            <v-expansion-panel-header>Forms and Documents</v-expansion-panel-header
             >
             <v-expansion-panel-content>
-              <!--Cnten features-->
+              <!--Content features-->
 
               <v-row><h5>LIST OF DOCUMENTS</h5></v-row>
               <v-divider></v-divider><br />
