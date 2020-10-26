@@ -1,4 +1,6 @@
 <template>
+      <!-- open on hover is like i changes a bit will there is a curser on it -->
+
   <div class="text-center">
     <v-menu
       open-on-hover
@@ -7,14 +9,15 @@
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
-          color="primary"
+          color="#E12228"
           dark
           v-bind="attrs"
           v-on="on"
-          height="48"
+          height="40"
           width="20"
         >
-          MENU
+          menu
+          <!-- menu is like a hamburger used in the website-->
         </v-btn>
       </template>
 
@@ -33,6 +36,7 @@
 <script>
   export default {
     data: () => ({
+      // items is like a list of things
       items: [
         { title: 'PRODUCTS' },
         { title: 'DIGITAL BANKING' },

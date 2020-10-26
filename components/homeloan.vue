@@ -1,62 +1,70 @@
 <template>
+
 <v-container>
 <v-row>
 <v-col>
   <form>
     
-   <!-- <v-card
-          class="pa-2"
-          outlined
-          color="#34618E"
-          
-        > -->
-    <div>
+ 
     <v-alert
       outlined
       color="#34618E"
      >
-
+    <!-- div alert is used to give n outlined retangle which contains a form -->
+            <!-- item=a in line 18 is like giving a variable to the label -->
+       
       <v-select
         v-model="select"
-        :items="a"
+        :items="a" 
         :error-messages="selectErrors"
+        color="red" light fixed app
         label="Loan Amount (Rs.)"
+        
         required
         @change="$v.select.$touch()"
         @blur="$v.select.$touch()"
         
       ></v-select>
+      
     
     <!--item can be any thing and it can be given a varible if there are more then one element-->
      <v-select
       v-model="select"
       :items="b"
       :error-messages="selectErrors"
+      color="red" light fixed app
       label="Interest rate (%)"
+      
       required
       @change="$v.select.$touch()"
       @blur="$v.select.$touch()"
     ></v-select>
      <v-select
+     
       v-model="isFormValid"
+      
       :items="c"
       :error-messages="selectErrors"
+      color="black" light fixed app
       label="Tenure (Years)"
       required
       @change="$v.select.$touch()"
       @blur="$v.select.$touch()"
     ></v-select>
+    <!-- isformvalid (line38) is for if condition that is if the users click the button only then he can proceed -->
+
     <!-- </v-card>  -->
     </v-alert>
-    </div>
+    
     <div class="text-left"> 
     <radio/> <br>
     </div>
-    
-    
+  
+  <!-- rounded is for round shaped buttons -->
   <div class="text-center"> 
     <v-btn
         rounded href="userform"
+        
         :disabled="!isFormValid"
     
           color="primary"

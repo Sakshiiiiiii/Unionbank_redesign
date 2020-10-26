@@ -52,13 +52,8 @@
       
       
       <!-- Footer -->
-      <v-footer color="#E22026" app>
-      <v-img
-      class="mx-auto"
-      src="footernav.jpg">
-      </v-img>
-        <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
-        </v-footer>
+      <Footer1/>
+      
 
     </v-app>
   </template>
@@ -73,7 +68,7 @@
     }
 
     #inspire {
-      background-color: #c4c4c4;
+      background-color: #ffffff;
       color: rgb(46, 65, 143);
     }
   </style>
