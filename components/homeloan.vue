@@ -14,7 +14,8 @@
             <!-- item=a in line 18 is like giving a variable to the label -->
        
       <v-select
-        v-model="select"
+      
+        v-model="select" 
         :items="a" 
         :error-messages="selectErrors"
         color="red" light fixed app
@@ -181,4 +182,4 @@
       },
     },
   }
-</script>
+

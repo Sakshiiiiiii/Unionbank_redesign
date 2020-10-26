@@ -616,6 +616,7 @@ export default {
 <style>
 .hey {
   color: rgb(47, 64, 143);
+ 
   font-family: Arial;
   /* this can hange the color and font of text */
 }

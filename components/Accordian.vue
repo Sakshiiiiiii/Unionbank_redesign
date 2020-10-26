@@ -2,9 +2,14 @@
   <v-container>
     <div>
       <v-alert outlined color="#34618E">
-        <col cols="10" md="10" sm="10" class="px-md-16 mx-sm-4 mx-4" />
+        <col cols="10" md="10" sm="10" class="px-md-16 mx-sm-4 mx-4">
         <!-- cols stand for mobile phones, where 10 means 10 column width/ md- laptop/ lg- computer  -->
         <!-- this are added for making the website responsive -->
+
+
+        <!-- 1EXPAN -->
+
+
         <v-expansion-panels class="#9E9E9E">
           <!-- "panels stands for all expansion in accordion"  -->
           <v-expansion-panel
@@ -218,6 +223,11 @@
           </v-expansion-panel>
         </v-expansion-panels>
         <br /><br />
+
+
+        <!-- 2EXPAN -->
+
+
         <v-expansion-panels>
           <v-expansion-panel
             class="blue darken-4"
@@ -233,6 +243,7 @@
               <v-row><h5>LIST OF DOCUMENTS</h5></v-row>
               <v-divider></v-divider><br />
               <v-row>
+                
                 <ol>
                   <h5>Proof of identity (any of the following)</h5>
                   <li>Passport</li>
@@ -273,6 +284,11 @@
           </v-expansion-panel>
         </v-expansion-panels>
         <br /><br />
+
+
+        <!-- 2EXPAN -->
+
+
         <v-expansion-panels>
           <!--In this checkbox box code is after the first accordian code to show it as a part of he accordian -->
 

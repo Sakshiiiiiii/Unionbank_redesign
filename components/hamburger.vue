@@ -1,9 +1,11 @@
 <template>
       <!-- open on hover is like i changes a bit will there is a curser on it -->
+               <!-- white light changes the color from black to white -->
 
   <div class="text-center">
     <v-menu
-      open-on-hover
+      open-on-hover 
+        color="white" light
       top
       offset-y
     >
