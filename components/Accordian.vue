@@ -28,7 +28,7 @@
               <!-- v-expansion panel header color set the color of the headng -->
               <br>
               <!--expansion panel helps in expanding a tab to an accordian-->
-              <v-row><h5>PURPOSE</h5></v-row>
+              <v-row><h5>PURPOSE </h5></v-row>
               <v-divider></v-divider><br />
               <v-row>
                 <v-col md="10" sm="10" cols="10">
