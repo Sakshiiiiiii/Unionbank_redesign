@@ -5,6 +5,8 @@
       <v-row justify="left">
         <!-- <v-col cols="3" sm="6" md="3"> -->
         <!-- <v-subheader >Select the Sum Insured</v-subheader> -->
+         <!-- The elements are label -->
+
         <v-radio-group row v-model="transition" hide-details>
           <v-col>
             <v-radio value="slide-y-transition" label="New User" color="black" light fixed app

@@ -14,16 +14,19 @@
         <v-expansion-panels class="#9E9E9E">
           <!-- "panels stands for all expansion in accordion"  -->
           <v-expansion-panel
-            class="blue darken-4"
+            class="grey lighten-1"
             v-for="(forms, a) in 1"
             :key="a"
           >
             <!--Accordian-->
             <!--feature,a is like giving a variable for more then one element-->
             <!--v-for allows to write in loop-->
-            <v-expansion-panel-header> Features </v-expansion-panel-header>
-
+            <v-expansion-panel-header color ="#00579D" text="black">
+             Features </v-expansion-panel-header>
+             
             <v-expansion-panel-content>
+              <!-- v-expansion panel header color set the color of the headng -->
+              <br>
               <!--expansion panel helps in expanding a tab to an accordian-->
               <v-row><h5>PURPOSE</h5></v-row>
               <v-divider></v-divider><br />
@@ -231,13 +234,14 @@
 
         <v-expansion-panels>
           <v-expansion-panel
-            class="blue darken-4"
+            class="grey lighten-1"
             v-for="(forms, b) in 1"
             :key="b"
           >
-            <v-expansion-panel-header>Forms and Documents</v-expansion-panel-header
+            <v-expansion-panel-header color ="#00579D" text="black" >Forms and Documents</v-expansion-panel-header
             >
             <v-expansion-panel-content>
+              <br>
               <!--Content features-->
 
               <v-row><h5>LIST OF DOCUMENTS</h5></v-row>
@@ -293,12 +297,13 @@
           <!--In this checkbox box code is after the first accordian code to show it as a part of he accordian -->
 
           <v-expansion-panel
-            class="blue darken-4"
+            class="grey lighten-1"
             v-for="(forms, c) in 1"
             :key="c"
           >
-            <v-expansion-panel-header>FAQs</v-expansion-panel-header>
+            <v-expansion-panel-header color ="#00579D" text="black">FAQs</v-expansion-panel-header>
             <v-expansion-panel-content>
+              <br>
               <v-row><h4>Q.1 What is the maximum loan amount?</h4> </v-row>
               <v-divider></v-divider>
               The maximum amount of loan sanctioned would be minimum of A or
@@ -364,7 +369,7 @@
 
     <style>
 .features {
-  color: white !important;
+  color: rgb(10, 10, 10) !important;
 }
 </style>
     

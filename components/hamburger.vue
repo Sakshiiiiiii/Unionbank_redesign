@@ -17,9 +17,10 @@
           v-on="on"
           height="40"
           width="20"
+          
         >
-          menu
-          <!-- menu is like a hamburger used in the website-->
+          <v-app-bar-nav-icon></v-app-bar-nav-icon>
+          <!-- hamburger used in the website with the help of icon-->
         </v-btn>
       </template>
 

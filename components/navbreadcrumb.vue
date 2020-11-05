@@ -1,6 +1,7 @@
 <template>
   <div>
     <v-breadcrumbs :items="items">
+      <!-- Items are things in the bread crumb -->
       <template v-slot:divider>
         <!-- Added color=black to make the icon black as the background is light -->
         <v-icon color="red">mdi-chevron-right</v-icon>

@@ -2,6 +2,8 @@
 <v-form v-model="isFormValid" >
   <!-- isformvalid is for if condition that is if the users click the button only then he can proceed -->
   <!-- selected color in 6 line will change the color of the box of the checkbox when selected -->
+   <!--(9) It stands for color inside the checkbox -->
+
   <v-treeview
     selectable
     selected-color="red"
