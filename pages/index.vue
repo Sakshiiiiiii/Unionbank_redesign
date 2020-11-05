@@ -4,6 +4,7 @@
     <v-container>
 <v-row>
    <Accordian/>
+   <!-- Index is the first page that we chose to show the views -->
 </v-row>
 <v-row>
 <button/>
