@@ -1,27 +1,30 @@
    <template>
+   <v-row>
    <v-card 
-        color="white"
+        color="#00579C"
         class="mx-auto"
-        width="170"
-        height="115"
+        width="200"
+        
+        
         >
  <v-img
           md="6" sm="6"
           contain="false"
           class="mx-auto"
-          max-height="80px"
-          max-width="110"
-          src="Onlinebanking.png">
+          max-height="300px"
+          max-width="400"
+          src="Netbanking.png">
         </v-img>
 <v-btn md="6" sm="6"
-                  block="true"
-                  max-width="160"
+                  block="false"
+                  max-width="400"
                   text="true"
-                  color="blue darken-2"
+                  color="white"
                   dark
                   v-bind="attrs"
                   v-on="on">
-                  Online Banking
+                  Net Banking
                 </v-btn>
      </v-card>   
+   </v-row>
      </template> 

@@ -13,16 +13,16 @@
       return {
         items: [
           {
-            src: 'MOBILE.jpg',
+            src: 'smile.png',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            src: 'ladka.png',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: 'thumbsup.png',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: 'family.jpg',
           },
         ],
       }

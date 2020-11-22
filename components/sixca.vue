@@ -2,19 +2,20 @@
    <v-card 
         color="white"
         class="mx-auto"
-        max-width="500"
+        width="170"
+        height="115"
         >
  <v-img
           md="6" sm="6"
           contain="false"
           class="mx-auto"
-          max-height="300px"
-          max-width="400"
+          max-height="80px"
+          max-width="110"
           src="Onlinepayment.png">
         </v-img>
 <v-btn md="6" sm="6"
                   block="true"
-                  max-width="400"
+                  max-width="160"
                   text="true"
                   color="blue darken-2"
                   dark
