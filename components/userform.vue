@@ -88,6 +88,8 @@
               fixed
               app
               label="Location"
+              menu-props="light"
+
               required
               @change="$v.select.$touch()"
               @blur="$v.select.$touch()"

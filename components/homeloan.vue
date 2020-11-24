@@ -19,6 +19,7 @@
         :items="a" 
         :error-messages="selectErrors"
         color="red" light fixed app
+        menu-props="light"
         label="Loan Amount (Rs.)"
         
         required
@@ -34,6 +35,7 @@
       :items="b"
       :error-messages="selectErrors"
       color="red" light fixed app
+      menu-props="light"
       label="Interest rate (%)"
       
       required
@@ -43,9 +45,10 @@
      <v-select
      
       v-model="isFormValid"
-      
+      menu-props="light"
       :items="c"
       :error-messages="selectErrors"
+    
       color="black" light fixed app
       label="Tenure (Years)"
       required

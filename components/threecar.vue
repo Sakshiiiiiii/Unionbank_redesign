@@ -21,7 +21,7 @@
                   block="false"
                   max-width="400"
                   text="true"
-                  color="white"
+                  color="#F7F8F9"
                   dark
                   v-bind="attrs"
                   v-on="on">

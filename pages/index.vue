@@ -13,7 +13,9 @@
 </v-row>
 <br>
 <v-row>
+  
    <sixcards/>
+   
    <sixcard/>
    <sixcar/>
    <sixca/>

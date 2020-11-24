@@ -1,4 +1,10 @@
    <template>
+   <v-card 
+        
+        class="mx-auto"
+        max-width="950"
+        height="500"
+        >
   <v-carousel :show-arrows="false">
     <v-carousel-item
       v-for="(item,i) in items"
@@ -6,6 +12,7 @@
       :src="item.src"
     ></v-carousel-item>
   </v-carousel>
+   </v-card>
 </template>
 <script>
   export default {
