@@ -3,7 +3,7 @@
         
         class="mx-auto"
         max-width="950"
-        height="500"
+        max-height="500"
         >
   <v-carousel :show-arrows="false">
     <v-carousel-item

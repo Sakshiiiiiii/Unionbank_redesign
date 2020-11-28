@@ -1,10 +1,13 @@
    <template>
+   
    <v-card 
+    
         color="white"
         class="mx-auto"
         width="170"
-        height="115"
+        height="150"
         >
+<v-alert outlined color="#34618E">      
  <v-img
           md="6" sm="6"
           contain="false"
@@ -23,5 +26,7 @@
                   v-on="on">
                   Apply online
                 </v-btn>
-     </v-card>   
+</v-alert>           
+     </v-card>  
+     
      </template> 

@@ -7,8 +7,9 @@
   
    <carousel/>
 </v-col>
-<v-col md="4">
-   <whatsnew/>
+<v-col md="4" class="hidden-sm-and-down">
+   
+<whatsnew/>
 </v-col>
 </v-row>
 <br>

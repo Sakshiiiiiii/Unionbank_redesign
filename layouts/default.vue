@@ -46,7 +46,7 @@
 
       <!-- Body -->
       <v-content light>
-      <navbreadcrumb/>
+      
         <nuxt /> 
       </v-content> 
       

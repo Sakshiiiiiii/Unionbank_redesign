@@ -1,6 +1,8 @@
 <template>
+
   <div>
     <v-content>
+      <bed />
       <v-container>
         <!--to get the content in the center-->
         <v-row justify="center">
