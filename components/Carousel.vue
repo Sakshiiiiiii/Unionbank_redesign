@@ -2,10 +2,12 @@
    <v-card 
         
         class="mx-auto"
-        max-width="950"
-        max-height="500"
+        
         >
-  <v-carousel :show-arrows="false">
+        
+  <v-carousel :show-arrows="false"
+        max-width="950"
+        max-height="100">
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
@@ -21,6 +23,7 @@
         items: [
           {
             src: 'smile.png',
+            
           },
           {
             src: 'ladka.png',

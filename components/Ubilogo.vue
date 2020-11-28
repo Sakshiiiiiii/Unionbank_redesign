@@ -2,13 +2,13 @@
   <img
     class="ubilogo"
     alt="homepage"
-    src="Unionlogo.jpg"
+    src="unionbank.jpg"
   >
 </template>
 
 <style>
 .ubilogo {
-  height:50px;
+  height:64px;
   width: 150px;
 }
 </style>
