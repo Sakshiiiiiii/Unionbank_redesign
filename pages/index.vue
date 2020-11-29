@@ -33,7 +33,7 @@
    <threecar/>
    <!-- Index is the first page that we chose to show the views -->
 
-   <cardtest/>
+   
 </v-row>
 
 </v-container>
