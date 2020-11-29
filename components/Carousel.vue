@@ -22,11 +22,11 @@
       return {
         items: [
           {
-            src: 'smile.png',
+            src: 'ladka.png',
             
           },
           {
-            src: 'ladka.png',
+            src: 'smile.png',
           },
           {
             src: 'thumbsup.png',

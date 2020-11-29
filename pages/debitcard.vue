@@ -3,7 +3,7 @@
     <v-content>
       
       <v-container>
-        <bed />
+        <bedrad />
         <v-row>
           <h3 class="hey">  Online Debit Card Application </h3>
          <!-- h3 helps in defining the size of the font  -->

@@ -3,8 +3,12 @@
   <div>
     <v-alert outlined color="#34618E">
       <v-container>
-        <h4 class="hey">Please Fill Your Details</h4>
-        <v-divider></v-divider>
+         <v-row>
+          <h3 class="hey">  Please Fill Your Personal Details </h3>
+         <!-- h3 helps in defining the size of the font  -->
+         <!-- hey is a custom class made to define the color and fornt family of the component -->
+        </v-row>
+        <v-divider color="red" width="240mm"> </v-divider>
         <v-row>
           <!-- divider helps in deviding 2 section with a thin line -->
 
