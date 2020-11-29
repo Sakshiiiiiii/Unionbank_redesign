@@ -32,6 +32,8 @@
    <threecard/>
    <threecar/>
    <!-- Index is the first page that we chose to show the views -->
+
+   
 </v-row>
 
 </v-container>
