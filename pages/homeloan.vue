@@ -2,6 +2,7 @@
   <div>
     <v-content>
       <v-container>
+        <bedsaks/>
         <v-row>
           <v-col cols="1" md="1" sm="1"> </v-col>
           <!-- cols md and sm are sizes which helped me in making te website responsive -->

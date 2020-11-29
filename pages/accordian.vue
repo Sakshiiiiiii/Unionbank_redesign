@@ -2,7 +2,7 @@
 
   <div>
     <v-content>
-      <bed />
+      <bedsak />
       <v-container>
         <!--to get the content in the center-->
         <v-row justify="center">

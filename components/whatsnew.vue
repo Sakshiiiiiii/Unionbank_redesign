@@ -3,6 +3,7 @@
         color="grey lighten-1"
         class="mx-auto"
         max-width="500"
+        height="300"
         >
 <v-card-text class="text--primary">
   <h2> What's NEW </h2> <br>

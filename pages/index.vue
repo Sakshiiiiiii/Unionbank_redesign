@@ -2,11 +2,14 @@
   
     <v-content>
     <v-container>
-<v-row>
-<v-col md="8">  
-  
-   <carousel/>
+<v-row class="hidden-md-and-up">
+   <carous/>
+</v-row>   
+<v-row class="hidden-sm-and-down">
+<v-col md="8"> 
+<carousel/>
 </v-col>
+
 <v-col md="4" class="hidden-sm-and-down">
    
 <whatsnew/>

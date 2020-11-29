@@ -3,7 +3,8 @@
    <v-card 
         color="#3C7DB8"
         class="mx-auto"
-        width="200"
+        width="250"
+        height="300"
         
         
         >
@@ -17,7 +18,7 @@
         </v-img>
 <v-btn 
         href="Accordian"
-        md="6" sm="6"
+        md="6" sm="6" cols="12"
                   block="false"
                   max-width="400"
                   text="true"

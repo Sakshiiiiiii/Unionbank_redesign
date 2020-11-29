@@ -1,21 +1,23 @@
    <template>
-   <v-row>
+   <v-row >
    <v-card 
+   md="6" sm="6" cols="12"
         color="#00579C"
         class="mx-auto"
-        width="200"
+        width="250"
         
         
         >
  <v-img
-          md="6" sm="6"
+          md="6" sm="6" cols="12"
           contain="false"
           class="mx-auto"
           max-height="300px"
           max-width="400"
           src="Netbanking.png">
         </v-img>
-<v-btn md="6" sm="6"
+<v-btn md="6" sm="6" cols="12"
+
                   block="false"
                   max-width="400"
                   text="true"

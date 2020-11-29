@@ -7,7 +7,7 @@
         
   <v-carousel :show-arrows="false"
         
-       height="300">
+       height="170">
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
