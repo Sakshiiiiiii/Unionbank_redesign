@@ -3,7 +3,7 @@
       <v-row >
         <v-col
           v-for="card in cards"
-          :key="card.title"
+          :key="card.src"
           :cols="card.flex"
         >
    <v-card 
