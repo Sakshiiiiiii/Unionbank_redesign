@@ -5,7 +5,7 @@
         color="#00579C"
         class="mx-auto"
         width="250"
-        
+        height="300"
         
         >
  <v-img
@@ -16,6 +16,7 @@
           max-width="400"
           src="Netbanking.png">
         </v-img>
+        <br>
 <v-btn md="6" sm="6" cols="12"
 
                   block="false"

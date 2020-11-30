@@ -5,7 +5,7 @@
         color="#3C7DB8"
         class="mx-auto"
         width="250"
-        
+        height="300"
         
         >
  <v-img
@@ -16,6 +16,7 @@
           max-width="400"
           src="Savingsaccount.png">
         </v-img>
+        <br>
 <v-btn 
         href="accountsavin" md="6" sm="6"
                   block="false"
