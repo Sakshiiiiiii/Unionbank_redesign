@@ -29,9 +29,12 @@
               <!-- v-expansion panel header color set the color of the headng -->
               <br>
               <!--expansion panel helps in expanding a tab to an accordian-->
-              <v-row><h5>PURPOSE</h5></v-row>
-              <v-divider>  </v-divider><br />
-              <v-row>
+              <h5>
+              <a 
+                class="text-decoration-none"
+                >PURPOSE</a></h5>
+              <v-divider color="red" width="60mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <v-col md="10" sm="10" cols="10">
                   <ol>
                     <!-- ol is used to put the text in the pointerr form -->
@@ -60,10 +63,13 @@
                 </v-col>
               </v-row>
               <br />
-              <v-row><h5>ELIGIBILITY</h5></v-row>
-              <v-divider></v-divider><br />
+              <h5>
+                <a 
+                class="text-decoration-none"
+                >ELIGIBILITY</a></h5>
+              <v-divider color="red" width="70mm"> </v-divider><br />
               <!-- divider helps in deviding 2 section with a thin line -->
-              <v-row>
+              <v-row span class="black--text">
                 <ol>
                   <li>Indian citizens and NRIs</li>
                   <li>
@@ -77,9 +83,13 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>QUANTUM OF LOAN</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5>
+                <a 
+                class="text-decoration-none"
+                >QUANTUM OF LOAN</a></h5>
+                <v-divider color="red" width="125mm"> </v-divider>
+              <br />
+              <v-row span class="black--text">
                 <ol>
                   <li>No limit on the quantum of loan.</li>
                   <li>
@@ -92,9 +102,12 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>MARGIN, I.E. YOUR SHARE</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5>
+                <a 
+                class="text-decoration-none"
+                >MARGIN, I.E. YOUR SHARE</a></h5>
+              <v-divider color="red" width="160mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     10% of the total cost of the purchase/ construction for
@@ -112,9 +125,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>MORATORIUM PERIOD</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >MORATORIUM PERIOD</a></h5>
+              <v-divider color="red" width="140mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Moratorium period of up to 36 months in case of purchase/
@@ -127,9 +142,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>REPAYMENT</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >REPAYMENT</a></h5>
+              <v-divider color="red" width="0mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Repayment period of up to 30 years in case of purchase/
@@ -141,9 +158,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>REPAYMENT METHODS</h5></v-row>
+              <v-row><h5><a 
+                class="text-decoration-none"
+                >REPAYMENT METHODS</a></h5></v-row>
               <v-divider></v-divider><br />
-              <v-row>
+              <v-row span class="black--text">
                 <ol>
                   <li>Equated Monthly Installments (EMI)</li>
                   <li>
@@ -174,9 +193,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>SMART SAVE OPTION</h5></v-row>
+              <v-row span class="black--text"><h5><a 
+                class="text-decoration-none"
+                >SMART SAVE OPTION</a></h5></v-row>
               <v-divider></v-divider><br />
-              <v-row>
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Under the Smart Save product, over and above the regular EMI
@@ -194,9 +215,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>GUARANTEE</h5></v-row>
+              <v-row><h5><a 
+                class="text-decoration-none"
+                >GUARANTEE</a></h5></v-row>
               <v-divider></v-divider><br />
-              <v-row>
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Third party guarantee is not required for Resident Indian.
@@ -209,9 +232,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>INSURANCE</h5></v-row>
+              <v-row><h5><a 
+                class="text-decoration-none"
+                >INSURANCE</a></h5></v-row>
               <v-divider></v-divider><br />
-              <v-row>
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Property should be comprehensively insured for an amount not

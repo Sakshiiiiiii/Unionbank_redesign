@@ -13,6 +13,7 @@
         <v-btn
           color="#E12228"
           dark
+          text="true"
           v-bind="attrs"
           v-on="on"
           height="40"

@@ -15,7 +15,7 @@
           src="Onlinebanking.png">
         </v-img>
         
-<v-btn 
+<v-btn           
                   block="true"
                   max-width="160"
                   text="true"
