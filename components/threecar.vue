@@ -3,21 +3,23 @@
    <v-card 
         color="#3C7DB8"
         class="mx-auto"
-        width="200"
+        width="250"
+        height="300"
         
         
         >
  <v-img
-          md="6" sm="6"
+          
           contain="false"
           class="mx-auto"
           max-height="300px"
           max-width="400"
           src="Homeloans.png">
         </v-img>
+        <br>
 <v-btn 
         href="Accordian"
-        md="6" sm="6"
+                  
                   block="false"
                   max-width="400"
                   text="true"

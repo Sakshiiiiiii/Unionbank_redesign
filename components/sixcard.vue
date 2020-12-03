@@ -3,8 +3,9 @@
         color="white"
         class="mx-auto"
         width="170"
-        height="115"
+        height="150"
         >
+<v-alert outlined color="#D32F2F"> 
  <v-img
           md="6" sm="6"
           contain="false"
@@ -24,5 +25,6 @@
                   v-on="on">
                   Debit Card
                 </v-btn>
+</v-alert>
      </v-card>   
      </template> 

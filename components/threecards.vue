@@ -1,20 +1,22 @@
    <template>
-   <v-row>
+   <v-row >
    <v-card 
+        md="6" sm="6" cols="12"
         color="#3C7DB8"
         class="mx-auto"
-        width="200"
-        
+        width="250"
+        height="300"
         
         >
  <v-img
-          md="6" sm="6"
+          md="6" sm="6" cols="12"
           contain="false"
           class="mx-auto"
           max-height="300px"
           max-width="400"
           src="Savingsaccount.png">
         </v-img>
+        <br>
 <v-btn 
         href="accountsavin" md="6" sm="6"
                   block="false"

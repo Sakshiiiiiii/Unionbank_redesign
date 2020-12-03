@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div class="text-center" flat>
     <!-- open on click command allows the card to show options when clicked -->
     <v-menu
       open-on-hover

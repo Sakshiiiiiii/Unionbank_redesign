@@ -81,8 +81,7 @@
   .hey {
     color: rgb(47, 64, 143);
     font-family: Arial;
-
-  }
+    }
   /* class hey helps in specifying the font and colour of the text used */
 
 </style>
