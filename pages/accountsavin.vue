@@ -8,7 +8,7 @@
        <!-- Component Example -->
        <v-row class="hidden-sm-and-down">
 <v-col sm="10">
-  <UbiLogo/> 
+  <UbiLogo1/> 
 </v-col> 
 </v-row>
       <v-row class="hidden-sm-and-down">
@@ -17,12 +17,12 @@
         </v-row>
         <v-row class="hidden-md-and-up">
           <v-col sm="10">
-  <UbiLogo/> 
+  <UbiLogo1/> 
 </v-col> 
           <!-- <v-col sm="8"></v-col> -->
           <v-col sm="1" class="mb-sm-2 ma-sm-4 mb-2 ma-4 mx-0" >
           <!-- mb-margin bellow ma-margin above mx-margin from both side -->
-          <hamburger/>
+          <hamburger1/>
           </v-col>
           </v-row>
           <v-row class="hidden-md-and-up">
@@ -36,7 +36,7 @@
 
     <!-- Body -->
     <v-content light>
-     
+     <NavBreadcrumb1/>
       <nuxt /> 
       <!-- a container is added in order to align it properly in all type of devices -->
       <v-container>
@@ -54,6 +54,7 @@
       </v-row>
       <v-row justify="center" class="mx-sm-12 mx-12 ">
        <Button/> 
+       <popup/>
        </v-row>
       </v-container>
                </v-content>

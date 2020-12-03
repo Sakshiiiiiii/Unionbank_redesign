@@ -30,8 +30,8 @@
                   Apply
                 </v-btn> 
                 </template>
-              <v-card color="white darken-2">
-                <v-card-title>
+              <v-card color="white darken-2" class="hey">
+                <v-card-title class= "hey">
                   <h3> I have read all the features and understood them.  </h3>
                 </v-card-title>
                 <!-- v-modal dialog is the mode/dialog pop up with width 420-->
