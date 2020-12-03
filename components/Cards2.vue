@@ -11,7 +11,8 @@
           :class="{ 'on-hover': hover }"
           class="mx-auto"
           max-width="1200"
-          color="#195289">
+          color="#FFFFFF">
+           <v-alert outlined color="#195289">
      <!-- paragraph tag is used to diffrentiate between the header and te rest of the text -->
     <!-- another component is table which is anoter component-->
     <v-card-text>
@@ -43,6 +44,7 @@ etc- No Charges via all Digital Platforms.<br>
 Redeem Points for Every On-Line Transaction.<br>
       </div>
     </v-card-text>
+           </v-alert>
      </v-card>
 </v-hover>
 </template>

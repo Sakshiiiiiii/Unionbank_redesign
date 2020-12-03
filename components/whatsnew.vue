@@ -1,19 +1,17 @@
    <template>
    <v-card 
    
-        color="#B3B3B3"
+        color="#E0E0E0"
         class="hey"
         max-width="500"
         height="300"
         >
-<v-card-text class="hey">
-  <h2>
-  <a 
-      class="text-decoration-none"
-      color=" red"
-    >What's NEW </a>
+<v-card-text span class="black--text">
+  <br>
+  <h2 span class="red--text">
+  What's NEW 
      </h2>
-  <v-divider color="red" width="125mm"> </v-divider> <br>
+  <br>
   <a 
       class="text-decoration-none"
     >Press Release-</a>
