@@ -10,7 +10,7 @@
 
     <!-- Body -->
     <v-content light>
-     <NavBreadcrumb1/>
+     <navbreadcrumb/>
       <nuxt /> 
       <!-- a container is added in order to align it properly in all type of devices -->
       <v-container>

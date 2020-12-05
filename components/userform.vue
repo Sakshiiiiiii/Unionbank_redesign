@@ -174,7 +174,8 @@
                       text
                       @click="dialog = false"
                       rounded
-                      >Ok</v-btn
+                      >Ok
+                      </v-btn
                     >
                   </v-card-actions>
                 </v-card>
