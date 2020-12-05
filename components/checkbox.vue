@@ -7,7 +7,7 @@
   <v-treeview
     selectable
     selected-color="red"
-    class="text-decoration-none"
+    
     :items="items"
   ></v-treeview>
   </v-form>
