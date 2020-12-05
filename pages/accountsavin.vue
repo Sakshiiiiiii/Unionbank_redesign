@@ -7,10 +7,14 @@
       
        <!-- Component Example -->
       
+      
+       
+         
+    
 
     <!-- Body -->
     <v-content light>
-     <navbreadcrumb/>
+    <navbreadcrumb/>
       <nuxt /> 
       <!-- a container is added in order to align it properly in all type of devices -->
       <v-container>

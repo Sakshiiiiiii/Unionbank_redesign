@@ -1,4 +1,4 @@
-  <template>
+<template>
     <!--Your App Starts Here -->
     <v-app id="inspire">
       
