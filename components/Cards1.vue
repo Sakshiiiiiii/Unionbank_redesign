@@ -35,8 +35,9 @@ Minors, Associations, Clubs, Societies, etc. <br>
 Minimum balance requirement with or without 
 cheque book facility:<br> 
 </p>
+<br>
 <Table/>
-<br><br>
+<br>
 
       </div>
     </v-card-text>

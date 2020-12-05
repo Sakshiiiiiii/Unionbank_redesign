@@ -33,11 +33,19 @@
                     </v-btn>
                   
                 </template>
+                <!-- add card from user form 
                 <v-card class="white">
-                  
+                  <div class="text-center">
+                    <strong class="blue--text text--darken-4">
+                      <v-card-title class="headline"
+                        ><h5>Task Successful!</h5></v-card-title
+                      >
+                    </strong>
+                  </div>
                   <strong class="blue--text text--darken-4">
                     <v-card-text
-                      >Make sure you have read and understood all features before proceeding.</v-card-text
+                      >Your loan application is successfully done.<br />
+                      Thank you for banking with us.</v-card-text
                     >
                   </strong>
                   <v-card-actions>
@@ -51,17 +59,8 @@
                       >Ok
                       </v-btn
                     >
-                    <v-btn
-                      color="blue darken-1"
-                      text
-                      @click="dialog = false"
-                      rounded
-                      >Cancel
-                      </v-btn
-                    >
-                  <!-- href directs from one page to another when clicked on it -->
-                </v-card-actions>
-              </v-card>
+                  </v-card-actions>
+                </v-card> -->
            </v-dialog>
 
           </v-card-actions>
