@@ -16,13 +16,13 @@
         </v-row>
         <v-row class="hidden-md-and-up">
           <v-col sm="8"></v-col>
-          <v-col sm="1" class="mb-sm-2 ma-sm-0 mb-5 ma-2 mx-0" >
+          <v-col sm="1" class="mb-sm-2 ma-sm-2 mb-8 ma-2 mx-0" >
           <!-- mb-margin bellow ma-margin above mx-margin from both side -->
           <hamburger/>
           </v-col>
           </v-row>
-        <v-col class="hidden-sm-and-down">
-          </v-col>
+        <!-- <v-col class="hidden-sm-and-down"> -->
+          <!-- </v-col> -->
           <v-btn icon>
             <v-icon>mdi-magnify</v-icon>
         </v-btn>

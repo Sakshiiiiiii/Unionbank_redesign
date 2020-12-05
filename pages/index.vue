@@ -17,23 +17,39 @@
 </v-row>
 <br>
 <v-row>
-  
-   <sixcards/>
+   <v-col>
+     <sixcards/> 
+   </v-col>
+   <v-col>
+     <sixcard/>
+   </v-col>
+   <v-col>
+     <sixcar/>
+   </v-col>
+   <v-col>
+     <sixca/>
+   </v-col>
+   <v-col>
+     <sixc/>
+   </v-col>
+   <v-col>
+     <six/>
+   </v-col>
    
-   <sixcard/>
-   <sixcar/>
-   <sixca/>
-   <sixc/>
-   <six/>
+  
 </v-row>
 <br>
 <v-row>
+<v-col>
    <threecards/>
+</v-col>
+<v-col>
    <threecard/>
+</v-col>
+<v-col>
    <threecar/>
-   <!-- Index is the first page that we chose to show the views -->
-
-   
+</v-col>
+   <!-- Index is the first page that we chose to show the views --> 
 </v-row>
 
 </v-container>

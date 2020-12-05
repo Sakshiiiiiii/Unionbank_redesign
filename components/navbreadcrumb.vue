@@ -20,6 +20,7 @@ export default {
         disabled: false,
         // href: 'breadcrumbs_dashboard',
       },
+      
       {
         text: "Product",
         disabled: false,
@@ -27,12 +28,12 @@ export default {
         // href: 'breadcrumbs_link_1',
       },
       {
-        text: "Loans",
+        text: "Accounts And Deposit",
         disabled: false,
         // href: 'breadcrumbs_link_2',
       },
       {
-        text: "HomeLoan",
+        text: "Savings Account",
         disabled: false,
         // href: 'breadcrumbs_link_3',
       },
