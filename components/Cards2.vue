@@ -19,7 +19,7 @@
             <p class="display-1 text--primary">
         Features Of UDSA
       </p>
-            <div class="text--primary">
+            <div span class="black--text">
        Any Resident Individual can open and operate 
 
 Union Digital Savings Account (UDSA) in his 

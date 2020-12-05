@@ -19,7 +19,7 @@
             <p class="display-1 text--primary">
         Features Of SBPEN
       </p>
-            <div class="text--primary">
+            <div span class="black--text">
        Eligibility: All customers who are drawing pension 
 through our Bank or intend to draw pension through 
 our Banks are eligible to open specially designed 
@@ -34,7 +34,7 @@ will be credited on quarterly basis in the months
 of April, July, October and January every year.<br>
 
 Rate of interest up to 25 lacs - 3.25% p.a. and 
-more than 25 lacs 4% p.a.<br>
+more than 25 lacs 4% p.a.<br> <br> <br> <br>
 
       </div>
     </v-card-text>
