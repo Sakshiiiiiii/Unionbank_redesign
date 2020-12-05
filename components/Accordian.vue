@@ -1,4 +1,4 @@
-   <template>
+<template>
    
   <v-container>
     <div>
@@ -15,7 +15,7 @@
         <v-expansion-panels class="#9E9E9E">
           <!-- "panels stands for all expansion in accordion"  -->
           <v-expansion-panel
-            class="grey lighten-1"
+            class="grey lighten-2"
             v-for="(forms, a) in 1"
             :key="a"
           >
@@ -29,9 +29,12 @@
               <!-- v-expansion panel header color set the color of the headng -->
               <br>
               <!--expansion panel helps in expanding a tab to an accordian-->
-              <v-row><h5>PURPOSE</h5></v-row>
-              <v-divider>  </v-divider><br />
-              <v-row>
+              <h5>
+              <a 
+                class="text-decoration-none"
+                >PURPOSE</a></h5>
+              <v-divider color="red" width="60mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <v-col md="10" sm="10" cols="10">
                   <ol>
                     <!-- ol is used to put the text in the pointerr form -->
@@ -60,10 +63,13 @@
                 </v-col>
               </v-row>
               <br />
-              <v-row><h5>ELIGIBILITY</h5></v-row>
-              <v-divider></v-divider><br />
+              <h5>
+                <a 
+                class="text-decoration-none"
+                >ELIGIBILITY</a></h5>
+              <v-divider color="red" width="70mm"> </v-divider><br />
               <!-- divider helps in deviding 2 section with a thin line -->
-              <v-row>
+              <v-row span class="black--text">
                 <ol>
                   <li>Indian citizens and NRIs</li>
                   <li>
@@ -77,9 +83,13 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>QUANTUM OF LOAN</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5>
+                <a 
+                class="text-decoration-none"
+                >QUANTUM OF LOAN</a></h5>
+                <v-divider color="red" width="125mm"> </v-divider>
+              <br />
+              <v-row span class="black--text">
                 <ol>
                   <li>No limit on the quantum of loan.</li>
                   <li>
@@ -92,9 +102,12 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>MARGIN, I.E. YOUR SHARE</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5>
+                <a 
+                class="text-decoration-none"
+                >MARGIN, I.E. YOUR SHARE</a></h5>
+              <v-divider color="red" width="160mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     10% of the total cost of the purchase/ construction for
@@ -112,9 +125,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>MORATORIUM PERIOD</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >MORATORIUM PERIOD</a></h5>
+              <v-divider color="red" width="140mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Moratorium period of up to 36 months in case of purchase/
@@ -127,9 +142,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>REPAYMENT</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >REPAYMENT</a></h5>
+              <v-divider color="red" width="80mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Repayment period of up to 30 years in case of purchase/
@@ -141,9 +158,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>REPAYMENT METHODS</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >REPAYMENT METHODS</a></h5>
+              <v-divider color="red" width="145mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>Equated Monthly Installments (EMI)</li>
                   <li>
@@ -174,9 +193,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>SMART SAVE OPTION</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >SMART SAVE OPTION</a></h5>
+              <v-divider color="red" width="140mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Under the Smart Save product, over and above the regular EMI
@@ -194,9 +215,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>GUARANTEE</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >GUARANTEE</a></h5>
+               <v-divider color="red" width="80mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Third party guarantee is not required for Resident Indian.
@@ -209,9 +232,11 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5>INSURANCE</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+              <h5><a 
+                class="text-decoration-none"
+                >INSURANCE</a></h5>
+             <v-divider color="red" width="75mm"> </v-divider><br />
+              <v-row span class="black--text">
                 <ol>
                   <li>
                     Property should be comprehensively insured for an amount not
@@ -235,7 +260,7 @@
 
         <v-expansion-panels>
           <v-expansion-panel
-            class="grey lighten-1"
+            class="grey lighten-2"
             v-for="(forms, b) in 1"
             :key="b"
           >
@@ -245,9 +270,11 @@
               <br>
               <!--Content features-->
 
-              <v-row><h5>LIST OF DOCUMENTS</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+             <h5> <a
+                class="text-decoration-none">
+                LIST OF DOCUMENTS  </a></h5>
+              <v-divider color="red" width="125mm"> </v-divider><br /><br />
+             <v-row span class="black--text">
                 
                 <ol>
                   <h5>Proof of identity (any of the following)</h5>
@@ -298,24 +325,27 @@
           <!--In this checkbox box code is after the first accordian code to show it as a part of he accordian -->
 
           <v-expansion-panel
-            class="grey lighten-1"
+            class="grey lighten-2"
             v-for="(forms, c) in 1"
             :key="c"
           >
             <v-expansion-panel-header color ="#00579D" text="black">FAQs</v-expansion-panel-header>
             <v-expansion-panel-content>
               <br>
-              <v-row><h4>Q.1 What is the maximum loan amount?</h4> </v-row>
-              <v-divider></v-divider>
+             <h4><a 
+                class="text-decoration-none"> Q.1 What is the maximum loan amount? </a></h4> 
+              <v-divider color="red" width="300mm"> </v-divider>
+              <v-row span class="black--text">
               The maximum amount of loan sanctioned would be minimum of A or
               B<br />
 
-              <v-row
-                >A. 90% for up to Rs.30 lakh, 80% for above Rs.30 lakh to up to
+              
+               A. 90% for up to Rs.30 lakh, 80% for above Rs.30 lakh to up to
                 Rs.75 Lakh & 75% for above Rs.75 lakh of the total cost of the
                 house (which excludes stamp duty, registration fee, transfer
-                fee, cost of furnishing, etc. if any)</v-row
-              >
+                fee, cost of furnishing, etc. if any) <br><br>
+                
+              
               B. Loan amount as per our eligibility calculations based on
               repayment capacity of the borrowers Note: The maximum loan amount
               would be decided by the repayment capacity of the borrower, which
@@ -332,14 +362,16 @@
               improve the repayment capacity.
 
               <br /><br />
-              <v-row
-                ><h4>
-                  Q.2 Who can be the co-applicants for the home loan?
-                </h4></v-row
-              >
-              <v-divider></v-divider>
-              <h5>Permitted co-applicants for male applicant :</h5>
-
+              </v-row>
+              <h4><a 
+                class="text-decoration-none">
+                  Q.2 Who can be the co-applicants for the home loan? </a>
+                </h4>
+              <v-divider color="red" width="400mm"> </v-divider>
+              <v-row span class="black--text">
+              Permitted co-applicants for male applicant :
+              </v-row>
+              <v-row span class="black--text">
               <ol>
                 <li>Wife</li>
                 <li>Father</li>
@@ -348,6 +380,7 @@
                 <li>Daughter in law</li>
                 <li>Unmarried-daughter</li>
               </ol>
+              </v-row>
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
