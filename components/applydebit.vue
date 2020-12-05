@@ -44,7 +44,7 @@
                 <v-card-title 
                   
                   class="hey">
-                  <h3> If you already have an active debit card, Please do not apply for debit card online </h3>
+                  <h4> If you already have an active debit card, Please do not apply for debit card online </h4>
                 </v-card-title>
                 <!-- v-modal dialog is the mode/dialog pop up with width 420-->
                 <!-- v-bind and v-on helps in opening the dialg hen the button is clicked -->
@@ -57,7 +57,7 @@
                   </v-btn>
                   <!-- href directs to a certain page -->
                   <!-- class hey is a custom defined class in the css which defines the color and font family to be used-->
-                  <v-btn href="mediacard"
+                  <v-btn 
                     max-width="380"
                     color="blue" 
                     text @click="dialog = false">cancel

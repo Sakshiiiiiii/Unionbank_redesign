@@ -18,6 +18,14 @@
     
     <!-- paragraph tag is used to diffrentiate between the header and te rest of the text --> 
     <!-- another component is table which is anoter component-->
+<<<<<<< HEAD
+    <v-card-text>
+            <p class="display-1 text--primary">
+        Features Of UDSA
+      </p>
+            <div span class="black--text">
+       Any Resident Individual can open and operate 
+=======
     <v-card-text >
     
         <h2>  
@@ -28,6 +36,7 @@
             <div span class="black--text">
               <p>
       Any Resident Individual can open and operate 
+>>>>>>> 297b6b048089ea1634c97f4635e9ad0fa10c96b2
 
 Union Digital Savings Account (UDSA) in his 
 /her name.<br>
