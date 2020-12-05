@@ -19,37 +19,46 @@
       class="mr-4"
       @click="submit"
     > -->
-    <v-btn md="6" sm="6"
-                  block="true"
-                  max-width="400"
-                  text="true"
-                  color="blue darken-2"
-                  dark
-                  v-bind="attrs"
-                  v-on="on">
-                  Apply
-                </v-btn> 
+
+    
+    <v-btn
+                      rounded
+                      :disabled="!isFormValid"
+                      color="primary"
+                      dark
+                      v-bind="attrs"
+                      v-on="on"
+                    >
+                      Apply 
+                    </v-btn>
+                  
                 </template>
-              <v-card color="white darken-2" class="hey">
-                <v-card-title class= "hey">
-                  <h3> I have read all the features and understood them.  </h3>
-                </v-card-title>
-                <!-- v-modal dialog is the mode/dialog pop up with width 420-->
-                <!-- v-bind and v-on helps in opening the dialg hen the button is clicked -->
-              <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn href="index"
-                    class="hey"
-                    color="blue" 
-                    text @click="dialog = false">Yes
-                  </v-btn>
-                  <!-- href directs to a certain page -->
-                  <!-- class hey is a custom defined class in the css which defines the color and font family to be used-->
-                  <v-btn href="accountsavin"
-                    max-width="380"
-                    color="blue" 
-                    text @click="dialog = false">No
-                  </v-btn>
+                <v-card class="white">
+                  
+                  <strong class="blue--text text--darken-4">
+                    <v-card-text
+                      >Make sure you have read and understood all features before proceeding.</v-card-text
+                    >
+                  </strong>
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+
+                    <v-btn
+                      color="blue darken-1"
+                      text
+                      @click="dialog = false"
+                      rounded
+                      >Ok
+                      </v-btn
+                    >
+                    <v-btn
+                      color="blue darken-1"
+                      text
+                      @click="dialog = false"
+                      rounded
+                      >Cancel
+                      </v-btn
+                    >
                   <!-- href directs from one page to another when clicked on it -->
                 </v-card-actions>
               </v-card>
@@ -63,11 +72,11 @@
       <!-- submit
     </v-btn> -->
     
-  <!-- </form> -->
+  </form>
 </template>
 
 <script>
-  import { validationMixin } from 'vuelidate'
+  import { validationMixin } from "vuelidate";
   import { required, maxLength, email } from 'vuelidate/lib/validators'
 
   export default {
@@ -77,7 +86,7 @@
          
       checkbox: {
         checked (val) {
-          return val
+          return val;
         },
       },
     },
@@ -88,21 +97,25 @@
     }),
 
     computed: {
-      checkboxErrors () {
-        const errors = []
-        if (!this.$v.checkbox.$dirty) return errors
-        !this.$v.checkbox.checked && errors.push('Must Check to proceed ')
-        return errors
+     checkboxErrors() {
+      const errors = [];
+      if (!this.$v.checkbox.$dirty) return errors;
+      !this.$v.checkbox.checked && errors.push("You must agree to continue!");
+      // The above text in orange is a sort of alert which users get when they fail to fill a particular section in a form
+      return errors;
       },
       },
 
-    methods: {
-      submit () {
-        this.$v.$touch()
-      },
-      clear () {
-        this.$v.$reset()
-        this.checkbox = false
+     methods: {
+    submit() {
+      this.$v.$touch();
+    },
+      
+      clear() {
+      this.$v.$reset();
+      
+      this.select = null;
+      this.checkbox = false;
       },
     },
   }

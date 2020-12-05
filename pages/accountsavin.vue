@@ -36,7 +36,7 @@
 
     <!-- Body -->
     <v-content light>
-     <NavBreadcrumb1/>
+     <navbreadcrumb/>
       <nuxt /> 
       <!-- a container is added in order to align it properly in all type of devices -->
       <v-container>
@@ -54,7 +54,7 @@
       </v-row>
       <v-row justify="center" class="mx-sm-12 mx-12 ">
        <Button/> 
-       <popup/>
+       <!-- <popup/> -->
        </v-row>
       </v-container>
                </v-content>
