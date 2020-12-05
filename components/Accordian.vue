@@ -248,7 +248,10 @@
               <br />
 
               <!--h1 standing for heading. it can be manipulated by changing numbers after h upto 6-->
-              <checkboxfeatures />
+              <v-checkbox
+                  v-model="allowSpaces"
+                  label="Yes, I have read the features of Home Loan."
+                ></v-checkbox>
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -308,7 +311,11 @@
               <br />
 
               <v-col cols="10" md="10" sm="10">
-                <checkbox />
+                <v-checkbox
+                  color="white"
+                  v-model="allowSpaces"
+                  label="Yes, I know the forms and documents required."
+                ></v-checkbox>
               </v-col>
             </v-expansion-panel-content>
           </v-expansion-panel>
