@@ -16,18 +16,18 @@
       <v-container>
             <v-row justify="center">
         <v-col cols="10" sm="4" md="3">
-           <Cards1/>
+           
            </v-col>
            <v-col cols="10" sm="4" md="3">
-             <Cards2/> 
+             
            </v-col>
            <v-col cols="10" sm="4" md="3">
-             <Cards3/> 
+             
            </v-col>
           
       </v-row>
       <v-row justify="center" class="mx-sm-12 mx-12 ">
-       <Button/> 
+      
        <!-- <popup/> -->
        </v-row>
       </v-container>
