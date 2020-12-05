@@ -3,7 +3,7 @@
     <v-content>
       <v-container>
         <v-row justify="center">
-          <cardtest/>
+          <dhoom/>
         </v-row>
       </v-container>
     </v-content>

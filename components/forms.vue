@@ -18,6 +18,20 @@
 
       <v-row justify="center"> 
         <v-col cols="7" md="7" sm="7">
+          <v-text-field
+              v-model="Surname"
+              :error-messages="nameErrors"
+              color="black"
+              light
+              fixed
+              app
+              :counter="10"
+              label="Captcha"
+              required
+              @input="$v.name.$touch()"
+              @blur="$v.name.$touch()"
+            ></v-text-field>
+            
           <v-text-field ref="form"
             v-model="accountno"
             outlined

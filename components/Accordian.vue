@@ -1,4 +1,4 @@
-   <template>
+<template>
    
   <v-container>
     <div>
@@ -15,7 +15,7 @@
         <v-expansion-panels class="#9E9E9E">
           <!-- "panels stands for all expansion in accordion"  -->
           <v-expansion-panel
-            class="grey lighten-1"
+            class="grey lighten-2"
             v-for="(forms, a) in 1"
             :key="a"
           >
@@ -145,7 +145,7 @@
               <h5><a 
                 class="text-decoration-none"
                 >REPAYMENT</a></h5>
-              <v-divider color="red" width="0mm"> </v-divider><br />
+              <v-divider color="red" width="80mm"> </v-divider><br />
               <v-row span class="black--text">
                 <ol>
                   <li>
@@ -158,10 +158,10 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5><a 
+              <h5><a 
                 class="text-decoration-none"
-                >REPAYMENT METHODS</a></h5></v-row>
-              <v-divider></v-divider><br />
+                >REPAYMENT METHODS</a></h5>
+              <v-divider color="red" width="145mm"> </v-divider><br />
               <v-row span class="black--text">
                 <ol>
                   <li>Equated Monthly Installments (EMI)</li>
@@ -193,10 +193,10 @@
                 </ol>
               </v-row>
               <br />
-              <v-row span class="black--text"><h5><a 
+              <h5><a 
                 class="text-decoration-none"
-                >SMART SAVE OPTION</a></h5></v-row>
-              <v-divider></v-divider><br />
+                >SMART SAVE OPTION</a></h5>
+              <v-divider color="red" width="140mm"> </v-divider><br />
               <v-row span class="black--text">
                 <ol>
                   <li>
@@ -215,10 +215,10 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5><a 
+              <h5><a 
                 class="text-decoration-none"
-                >GUARANTEE</a></h5></v-row>
-              <v-divider></v-divider><br />
+                >GUARANTEE</a></h5>
+               <v-divider color="red" width="80mm"> </v-divider><br />
               <v-row span class="black--text">
                 <ol>
                   <li>
@@ -232,10 +232,10 @@
                 </ol>
               </v-row>
               <br />
-              <v-row><h5><a 
+              <h5><a 
                 class="text-decoration-none"
-                >INSURANCE</a></h5></v-row>
-              <v-divider></v-divider><br />
+                >INSURANCE</a></h5>
+             <v-divider color="red" width="75mm"> </v-divider><br />
               <v-row span class="black--text">
                 <ol>
                   <li>
@@ -260,7 +260,7 @@
 
         <v-expansion-panels>
           <v-expansion-panel
-            class="grey lighten-1"
+            class="grey lighten-2"
             v-for="(forms, b) in 1"
             :key="b"
           >
@@ -270,9 +270,11 @@
               <br>
               <!--Content features-->
 
-              <v-row><h5>LIST OF DOCUMENTS</h5></v-row>
-              <v-divider></v-divider><br />
-              <v-row>
+             <h5> <a
+                class="text-decoration-none">
+                LIST OF DOCUMENTS  </a></h5>
+              <v-divider color="red" width="125mm"> </v-divider><br /><br />
+             <v-row span class="black--text">
                 
                 <ol>
                   <h5>Proof of identity (any of the following)</h5>
@@ -323,24 +325,27 @@
           <!--In this checkbox box code is after the first accordian code to show it as a part of he accordian -->
 
           <v-expansion-panel
-            class="grey lighten-1"
+            class="grey lighten-2"
             v-for="(forms, c) in 1"
             :key="c"
           >
             <v-expansion-panel-header color ="#00579D" text="black">FAQs</v-expansion-panel-header>
             <v-expansion-panel-content>
               <br>
-              <v-row><h4>Q.1 What is the maximum loan amount?</h4> </v-row>
-              <v-divider></v-divider>
+             <h4><a 
+                class="text-decoration-none"> Q.1 What is the maximum loan amount? </a></h4> 
+              <v-divider color="red" width="300mm"> </v-divider>
+              <v-row span class="black--text">
               The maximum amount of loan sanctioned would be minimum of A or
               B<br />
 
-              <v-row
-                >A. 90% for up to Rs.30 lakh, 80% for above Rs.30 lakh to up to
+              
+               A. 90% for up to Rs.30 lakh, 80% for above Rs.30 lakh to up to
                 Rs.75 Lakh & 75% for above Rs.75 lakh of the total cost of the
                 house (which excludes stamp duty, registration fee, transfer
-                fee, cost of furnishing, etc. if any)</v-row
-              >
+                fee, cost of furnishing, etc. if any) <br><br>
+                
+              
               B. Loan amount as per our eligibility calculations based on
               repayment capacity of the borrowers Note: The maximum loan amount
               would be decided by the repayment capacity of the borrower, which
@@ -357,14 +362,16 @@
               improve the repayment capacity.
 
               <br /><br />
-              <v-row
-                ><h4>
-                  Q.2 Who can be the co-applicants for the home loan?
-                </h4></v-row
-              >
-              <v-divider></v-divider>
-              <h5>Permitted co-applicants for male applicant :</h5>
-
+              </v-row>
+              <h4><a 
+                class="text-decoration-none">
+                  Q.2 Who can be the co-applicants for the home loan? </a>
+                </h4>
+              <v-divider color="red" width="400mm"> </v-divider>
+              <v-row span class="black--text">
+              Permitted co-applicants for male applicant :
+              </v-row>
+              <v-row span class="black--text">
               <ol>
                 <li>Wife</li>
                 <li>Father</li>
@@ -373,6 +380,7 @@
                 <li>Daughter in law</li>
                 <li>Unmarried-daughter</li>
               </ol>
+              </v-row>
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -398,5 +406,3 @@
   color: rgb(10, 10, 10) !important;
 }
 </style>
-    
-

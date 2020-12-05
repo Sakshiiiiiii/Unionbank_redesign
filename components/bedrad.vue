@@ -23,7 +23,7 @@
         {
           text: 'Debit Card',
           disabled: false,
-          href: 'Accordian'
+          href: 'debitcard'
         },
         
         

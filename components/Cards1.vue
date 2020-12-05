@@ -33,14 +33,11 @@ Visually Impaired persons, Purdanasheen Ladies,
 Minors, Associations, Clubs, Societies, etc. <br>
 
 Minimum balance requirement with or without 
-<<<<<<< HEAD
-cheque book facility:<br> <br>
-=======
 cheque book facility:<br> 
->>>>>>> 297b6b048089ea1634c97f4635e9ad0fa10c96b2
 </p>
+<br>
 <Table/>
-<br><br>
+<br>
 
       </div>
     </v-card-text>

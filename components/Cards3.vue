@@ -18,14 +18,6 @@
     
     <!-- paragraph tag is used to diffrentiate between the header and te rest of the text --> 
     <!-- another component is table which is anoter component-->
-<<<<<<< HEAD
-    <v-card-text>
-            <p class="display-1 text--primary">
-        Features Of SBPEN
-      </p>
-            <div span class="black--text">
-       Eligibility: All customers who are drawing pension 
-=======
     <v-card-text >
     
         <h2>  
@@ -36,7 +28,6 @@
             <div span class="black--text">
               <p>
      Eligibility: All customers who are drawing pension 
->>>>>>> 297b6b048089ea1634c97f4635e9ad0fa10c96b2
 through our Bank or intend to draw pension through 
 our Banks are eligible to open specially designed 
 pension account under scheme code SBPEN.<br>
@@ -50,13 +41,8 @@ will be credited on quarterly basis in the months
 of April, July, October and January every year.<br>
 
 Rate of interest up to 25 lacs - 3.25% p.a. and 
-<<<<<<< HEAD
-more than 25 lacs 4% p.a.<br> <br> <br> <br>
-
-=======
 more than 25 lacs 4% p.a.<br><br> <br> <br>
 </p>
->>>>>>> 297b6b048089ea1634c97f4635e9ad0fa10c96b2
       </div>
     </v-card-text>
     </v-alert>
