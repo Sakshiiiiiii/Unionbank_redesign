@@ -13,14 +13,12 @@
         <v-btn
           color="#E12228"
           dark
-          text="true"
           v-bind="attrs"
           v-on="on"
           height="40"
           width="20"
           
-        >
-          <v-app-bar-nav-icon></v-app-bar-nav-icon>
+        >          <v-app-bar-nav-icon></v-app-bar-nav-icon>
           <!-- hamburger used in the website with the help of icon-->
         </v-btn>
       </template>

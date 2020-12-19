@@ -18,26 +18,14 @@
 
       <v-row justify="center"> 
         <v-col cols="7" md="7" sm="7">
-          <v-text-field
-              v-model="Surname"
-              :error-messages="nameErrors"
-              color="black"
-              light
-              fixed
-              app
-              :counter="10"
-              label="Captcha"
-              required
-              @input="$v.name.$touch()"
-              @blur="$v.name.$touch()"
-            ></v-text-field>
+          
             
           <v-text-field ref="form"
             v-model="accountno"
             outlined
             rounded
             type="password"
-            color="black" light fixed app
+            light fixed 
             :rules="accountRules"
             :counter="15"
             label="Account Number*"
@@ -54,7 +42,7 @@
         <v-col cols="7" md="7" sm="7">
           <v-text-field ref="form"
            v-model="reaccountno"
-            color="black" light fixed app
+           light fixed app
             type="password"
             :rules="reaccountRules"
             :counter="15"
@@ -69,7 +57,7 @@
         <v-col cols="7" md="7" sm="7"> 
           <v-text-field ref="form"
             v-model="email"
-            color="black" light fixed app
+            light fixed app
             :rules="emailRules"
             label="Captcha*"
             outlined
