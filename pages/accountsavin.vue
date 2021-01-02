@@ -31,7 +31,7 @@
           
       </v-row>
       <v-row justify="center" class="mx-sm-12 mx-12 ">
-       <Button/> 
+       <EndButton/>
        
        <!-- <popup/> -->
        </v-row>
